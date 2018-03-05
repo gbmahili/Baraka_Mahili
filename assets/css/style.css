@@ -19,8 +19,17 @@ span {
     border-radius: 100%;
 }
 
-.left-content{
-    margin-top: 50px;
+.left-content, .right-content{
+    margin-top: 35px;
+}
+
+.right-content{
+    border-left: 5px solid #999CAC;
+    height: 100%;
+    
+}
+.right-content ul, .right-content h1{
+    padding-left: 50px;
 }
 
 h1{
@@ -38,4 +47,13 @@ h2, h3{
 .social-icons a{
     color: #999CAC;
     padding: 0 10px;
+}
+
+.professions li{
+    list-style-type: none;
+    color: #999CAC;
+    border-bottom: 1px dashed #999CAC;
+    display: inline;
+    padding: 5px 0;
+    font-size: 18px;
 }
