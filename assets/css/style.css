@@ -1,6 +1,7 @@
 body,
 html {
     background-color: #333959;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -10,4 +11,31 @@ html {
 span {
     padding: 0 20px;
     font-size: 18px;
+}
+
+.me{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+
+.left-content{
+    margin-top: 50px;
+}
+
+h1{
+    color: #FFF;
+    font-weight: 300;
+    font-size: 30px; 
+}
+
+h2, h3{
+    font-weight: 100;
+    font-size: 17px;
+    color: #FEFEFE;
+}
+
+.social-icons a{
+    color: #FEFEFE;
+    padding: 0 5px;
 }
