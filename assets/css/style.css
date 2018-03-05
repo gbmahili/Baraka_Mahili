@@ -19,16 +19,16 @@ span {
     border-radius: 100%;
 }
 
-.left-content, .right-content{
+.left-content, .right-content-about, .right-content-more{
     margin-top: 35px;
 }
 
-.right-content{
+.right-content-about, .right-content-more{
     border-left: 5px solid #999CAC;
     height: 100%;
     
 }
-.right-content ul, .right-content h1{
+.right-content-about ul, .right-content-about h1, .right-content-more ul, .right-content-more h1{
     padding-left: 50px;
 }
 
