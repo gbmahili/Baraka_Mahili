@@ -1,0 +1,13 @@
+body,
+html {
+    background-color: #333959;
+}
+
+.header {
+    background-color: #2B304C;
+}
+
+span {
+    padding: 0 20px;
+    font-size: 18px;
+}
