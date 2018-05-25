@@ -13,6 +13,9 @@ $(document).ready(function(){
         $("html, body").css({
             "backgroundColor": "#333959"
         });
+        $("h1, h2").css({
+            "color": "#FFF"
+        });
     });
 
     more.click(e => {
@@ -23,7 +26,10 @@ $(document).ready(function(){
             "backgroundColor": "#FFF",
             "color": "#9A9A9A"
         });
+        $("h1, h2").css({
+            "color": "#9A9A9A"
+        });
     });
 
-    $("h1, h2, h3").css("color", "#9A9A9A");
+    //$("h1, h2, h3").css("color", "#9A9A9A");
 })

@@ -28,32 +28,36 @@ span {
     height: 100%;
     
 }
-.right-content-about ul, .right-content-about h1, .right-content-more ul, .right-content-more h1{
+.right-content-about ul, .right-content-about h1, .right-content-more ul, .right-content-more h1, .right-content-more h2, .right-content-more p{
     padding-left: 50px;
 }
 
 h1{
     color: #FFF;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 30px; 
 }
 
 h2, h3{
-    font-weight: 100;
-    font-size: 17px;
+    font-weight: 300;
+    font-size: 25px;
     color: #FEFEFE;
 }
 
 .social-icons a{
-    color: #999CAC;
+    color: #C1C3CC;
     padding: 0 10px;
 }
 
 .professions li{
     list-style-type: none;
-    color: #999CAC;
-    border-bottom: 1px dashed #999CAC;
+    color: #C1C3CC;
     display: inline;
     padding: 5px 0;
     font-size: 18px;
+}
+
+.professions li a{
+    border-bottom: 1px dashed #C1C3CC;
+    color: #C1C3CC;
 }
